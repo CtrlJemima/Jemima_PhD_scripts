@@ -1,0 +1,162 @@
+
+(pegs) jemima@89-server:~/Secondyear/CMS_analysis$ pegs hg38 \
+  -p /home/jemima/Secondyear/CMS_analysis/1000GP_cms_localised_regions_lifted.bed \
+  -g /home/jemima/Secondyear/CMS_analysis/Ivan_diagHypergraph_mapped_CMS/*_top15.txt \
+  -d 1000 2500 5000 10000 25000 50000 100000 \
+  -o /home/jemima/Secondyear/CMS_analysis/redo \
+  --name Ivan_diag_CMS_hg38_top15_allcells \
+  --x-label "Cell types" \
+  --format png
+PEGS: Peak-set Enrichment of Gene-Sets 0.6.6
+
+Efficiently calculate enrichments of gene clusters in
+multiple genomic intervals data (e.g. ChIP-seq peak-sets)
+at different distances
+
+Copyright University of Manchester
+Faculty of Biology Medicine and Health
+Authors: Mudassar Iqbal, Peter Briggs
+
+
+If you use PEGS in your research then please cite:
+
+* Briggs P, Hunter AL, Yang Sh et al.
+  PEGS: An efficient tool for gene set enrichment within defined
+  sets of genomic intervals [version 2; peer review: 2 approved].
+  F1000Research 2021, 10:570
+  (https://doi.org/10.12688/f1000research.53926.2)
+
+====PEGS is starting====
+Found bedtools v2.31.1 (/home/jemima/miniconda3/envs/pegs/bin/bedtools)
+
+====Genes interval file====
+/home/jemima/miniconda3/envs/pegs/pegs-0.6.6/refGene_hg38_120719_intervals.bed
+
+====Peaks Files====
+1000GP_cms_localised_regions_lifted.bed
+
+====Cluster Files====
+CTBs_top15.txt
+Compacted_Morula_top15.txt
+EPI_top15.txt
+EVTs_top15.txt
+Hypoblast_top15.txt
+ICM_top15.txt
+Morula_top15.txt
+Oocyte_top15.txt
+PSA-EPI_top15.txt
+STBs_top15.txt
+Trophectoderm_top15.txt
+Uncompacted_Morula_top15.txt
+Unlabeled_Blastocyst_top15.txt
+Unlabeled_top15.txt
+Zygote_top15.txt
+2-cell_top15.txt
+4-cell_top15.txt
+8-cell_top15.txt
+
+====TADs file====
+Not supplied
+
+====Distances====
+1000
+2500
+5000
+10000
+25000
+50000
+100000
+
+====Starting analysis====
+Counting genes in refGene_hg38_120719_intervals.bed
+Counted 28265 genes
+
+-- Processing peaks for 1000GP_cms_localised_regions_lifted.bed
+
+====Writing heatmap====
+/home/jemima/Secondyear/CMS_analysis/redo/Ivan_diag_CMS_hg38_top15_allcells_heatmap.png
+
+====Writing XLSX file====
+/home/jemima/Secondyear/CMS_analysis/redo/Ivan_diag_CMS_hg38_top15_allcells_results.xlsx
+
+(pegs) jemima@89-server:~/Secondyear/CMS_analysis$ pegs hg38 \
+  -p /home/jemima/Secondyear/CMS_analysis/1000GP_cms_localised_regions_lifted.bed \
+  -g /home/jemima/Secondyear/CMS_analysis/Ivan_diagHypergraph_mapped_CMS/*_rest.txt \
+  -d 1000 2500 5000 10000 25000 50000 100000 \
+  -o /home/jemima/Secondyear/CMS_analysis/redo \
+  --name Ivan_diag_CMS_hg38_top15_allcells \
+  --x-label "Cell types" \
+  --format png
+PEGS: Peak-set Enrichment of Gene-Sets 0.6.6
+
+Efficiently calculate enrichments of gene clusters in
+multiple genomic intervals data (e.g. ChIP-seq peak-sets)
+at different distances
+
+Copyright University of Manchester
+Faculty of Biology Medicine and Health
+Authors: Mudassar Iqbal, Peter Briggs
+
+
+If you use PEGS in your research then please cite:
+
+* Briggs P, Hunter AL, Yang Sh et al.
+  PEGS: An efficient tool for gene set enrichment within defined
+  sets of genomic intervals [version 2; peer review: 2 approved].
+  F1000Research 2021, 10:570
+  (https://doi.org/10.12688/f1000research.53926.2)
+
+====PEGS is starting====
+Found bedtools v2.31.1 (/home/jemima/miniconda3/envs/pegs/bin/bedtools)
+
+====Genes interval file====
+/home/jemima/miniconda3/envs/pegs/pegs-0.6.6/refGene_hg38_120719_intervals.bed
+
+====Peaks Files====
+1000GP_cms_localised_regions_lifted.bed
+
+====Cluster Files====
+2-cell_rest.txt
+4-cell_rest.txt
+8-cell_rest.txt
+CTBs_rest.txt
+Compacted_Morula_rest.txt
+EPI_rest.txt
+EVTs_rest.txt
+Hypoblast_rest.txt
+ICM_rest.txt
+Morula_rest.txt
+Oocyte_rest.txt
+PSA-EPI_rest.txt
+STBs_rest.txt
+Trophectoderm_rest.txt
+Uncompacted_Morula_rest.txt
+Unlabeled_Blastocyst_rest.txt
+Unlabeled_rest.txt
+Zygote_rest.txt
+
+====TADs file====
+Not supplied
+
+====Distances====
+1000
+2500
+5000
+10000
+25000
+50000
+100000
+
+====Starting analysis====
+Counting genes in refGene_hg38_120719_intervals.bed
+Counted 28265 genes
+
+-- Processing peaks for 1000GP_cms_localised_regions_lifted.bed
+
+====Writing heatmap====
+/home/jemima/Secondyear/CMS_analysis/redo/Ivan_diag_CMS_hg38_top15_allcells_heatmap.png
+
+====Writing XLSX file====
+/home/jemima/Secondyear/CMS_analysis/redo/Ivan_diag_CMS_hg38_top15_allcells_results.xlsx
+
+(pegs) jemima@89-server:~/Secondyear/CMS_analysis$ 
