@@ -1,0 +1,166 @@
+(base) jemima@89-server:~/Secondyear/CMS_analysis$ conda activate pegs
+(pegs) jemima@89-server:~/Secondyear/CMS_analysis$ pegs hg38 \
+  -p /home/jemima/Secondyear/CMS_analysis/1000GP_cms_localised_regions_lifted.bed \
+  -g /home/jemima/Secondyear/CMS_analysis/VTFullcells_diagHypergraph_mapped_CMS/*_top15.txt \
+  -d 1000 2500 5000 10000 25000 50000 100000 \
+  -o /home/jemima/Secondyear/CMS_analysis/VTFullcells_diagHypergraph_mapped_CMS \
+  --name VTFullcells_diag_CMS_hg38_top15_allcells \
+  --x-label "Cell types" \
+  --format png
+PEGS: Peak-set Enrichment of Gene-Sets 0.6.6
+
+Efficiently calculate enrichments of gene clusters in
+multiple genomic intervals data (e.g. ChIP-seq peak-sets)
+at different distances
+
+Copyright University of Manchester
+Faculty of Biology Medicine and Health
+Authors: Mudassar Iqbal, Peter Briggs
+
+
+If you use PEGS in your research then please cite:
+
+* Briggs P, Hunter AL, Yang Sh et al.
+  PEGS: An efficient tool for gene set enrichment within defined
+  sets of genomic intervals [version 2; peer review: 2 approved].
+  F1000Research 2021, 10:570
+  (https://doi.org/10.12688/f1000research.53926.2)
+
+====PEGS is starting====
+Found bedtools v2.31.1 (/home/jemima/miniconda3/envs/pegs/bin/bedtools)
+
+====Genes interval file====
+/home/jemima/miniconda3/envs/pegs/pegs-0.6.6/refGene_hg38_120719_intervals.bed
+
+====Peaks Files====
+1000GP_cms_localised_regions_lifted.bed
+
+====Cluster Files====
+CTB_top15.txt
+Decidual_Macrophages_top15.txt
+Decidual_NK_top15.txt
+Decidual_Stromal_top15.txt
+Dendritic_Cells_top15.txt
+EVT_top15.txt
+Epithelial_Glandular_top15.txt
+Fetal_Endothelial_top15.txt
+Fibroblasts_top15.txt
+Granulocytes_top15.txt
+Hofbauer_Cells_top15.txt
+Innate_Lymphoid_Cells_top15.txt
+Lymphatic_Endothelial_top15.txt
+Maternal_Endothelial_top15.txt
+Monocytes_top15.txt
+Perivascular_Cells_top15.txt
+Plasma_Cells_top15.txt
+STB_top15.txt
+T_Cells_top15.txt
+Blood_NK_CD16+_top15.txt
+Blood_NK_CD16-_top15.txt
+
+====TADs file====
+Not supplied
+
+====Distances====
+1000
+2500
+5000
+10000
+25000
+50000
+100000
+
+====Starting analysis====
+Counting genes in refGene_hg38_120719_intervals.bed
+Counted 28265 genes
+
+-- Processing peaks for 1000GP_cms_localised_regions_lifted.bed
+
+====Writing heatmap====
+/home/jemima/Secondyear/CMS_analysis/VTFullcells_diagHypergraph_mapped_CMS/VTFullcells_diag_CMS_hg38_top15_allcells_heatmap.png
+
+====Writing XLSX file====
+/home/jemima/Secondyear/CMS_analysis/VTFullcells_diagHypergraph_mapped_CMS/VTFullcells_diag_CMS_hg38_top15_allcells_results.xlsx
+
+(pegs) jemima@89-server:~/Secondyear/CMS_analysis$ pegs hg38 \
+  -p /home/jemima/Secondyear/CMS_analysis/1000GP_cms_localised_regions_lifted.bed \
+  -g /home/jemima/Secondyear/CMS_analysis/VTFullcells_diagHypergraph_mapped_CMS/*_rest.txt \
+  -d 1000 2500 5000 10000 25000 50000 100000 \
+  -o /home/jemima/Secondyear/CMS_analysis/VTFullcells_diagHypergraph_mapped_CMS \
+  --name VTFullcells_diag_CMS_hg38_rest_allcells \
+  --x-label "Cell types" \
+  --format png
+PEGS: Peak-set Enrichment of Gene-Sets 0.6.6
+
+Efficiently calculate enrichments of gene clusters in
+multiple genomic intervals data (e.g. ChIP-seq peak-sets)
+at different distances
+
+Copyright University of Manchester
+Faculty of Biology Medicine and Health
+Authors: Mudassar Iqbal, Peter Briggs
+
+
+If you use PEGS in your research then please cite:
+
+* Briggs P, Hunter AL, Yang Sh et al.
+  PEGS: An efficient tool for gene set enrichment within defined
+  sets of genomic intervals [version 2; peer review: 2 approved].
+  F1000Research 2021, 10:570
+  (https://doi.org/10.12688/f1000research.53926.2)
+
+====PEGS is starting====
+Found bedtools v2.31.1 (/home/jemima/miniconda3/envs/pegs/bin/bedtools)
+
+====Genes interval file====
+/home/jemima/miniconda3/envs/pegs/pegs-0.6.6/refGene_hg38_120719_intervals.bed
+
+====Peaks Files====
+1000GP_cms_localised_regions_lifted.bed
+
+====Cluster Files====
+Blood_NK_CD16+_rest.txt
+Blood_NK_CD16-_rest.txt
+CTB_rest.txt
+Decidual_Macrophages_rest.txt
+Decidual_NK_rest.txt
+Decidual_Stromal_rest.txt
+Dendritic_Cells_rest.txt
+EVT_rest.txt
+Epithelial_Glandular_rest.txt
+Fetal_Endothelial_rest.txt
+Fibroblasts_rest.txt
+Granulocytes_rest.txt
+Hofbauer_Cells_rest.txt
+Innate_Lymphoid_Cells_rest.txt
+Lymphatic_Endothelial_rest.txt
+Maternal_Endothelial_rest.txt
+Monocytes_rest.txt
+Perivascular_Cells_rest.txt
+Plasma_Cells_rest.txt
+STB_rest.txt
+T_Cells_rest.txt
+
+====TADs file====
+Not supplied
+
+====Distances====
+1000
+2500
+5000
+10000
+25000
+50000
+100000
+
+====Starting analysis====
+Counting genes in refGene_hg38_120719_intervals.bed
+Counted 28265 genes
+
+-- Processing peaks for 1000GP_cms_localised_regions_lifted.bed
+
+====Writing heatmap====
+/home/jemima/Secondyear/CMS_analysis/VTFullcells_diagHypergraph_mapped_CMS/VTFullcells_diag_CMS_hg38_rest_allcells_heatmap.png
+
+====Writing XLSX file====
+/home/jemima/Secondyear/CMS_analysis/VTFullcells_diagHypergraph_mapped_CMS/VTFullcells_diag_CMS_hg38_rest_allcells_results.xlsx
